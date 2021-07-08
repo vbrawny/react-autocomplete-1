@@ -1,0 +1,33 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Cabin', sans-serif;
+}
+
+.app h1{
+  text-shadow: 1px 1px 4px black;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.app h1 b{
+  color: rgb(252, 212, 33);
+
+}
+.app h3{
+  color:rgb(5, 66, 62);
+  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 1px rgb(87, 177, 135);
+
+}
